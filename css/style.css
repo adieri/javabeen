@@ -42,13 +42,13 @@ h1{
 }
 
 .prev{
-    position:relative;
+    position:absolute;
     margin-right:-45px;
     z-index:100;
 }
 
 .next{
-    position:relative;
+    position:absolute;
     margin-left:-45px;
     z-index:100;
 }
