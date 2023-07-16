@@ -33,8 +33,8 @@ h1{
 
 .slider-inner img{
     display:none;
-    width: 500px;
-    height: 300px;
+    width:500px;
+    height:300px;
 }
 
 .slider-inner img.active{
@@ -48,13 +48,13 @@ h1{
 }
 
 .prev{
-    position:relative;
+    position:fixed;
     margin-right:-45px;
     z-index:100;
 }
 
 .next{
-    position:relative;
+    position:fixed;
     margin-left:-45px;
     z-index:100;
 }
