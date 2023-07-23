@@ -74,8 +74,8 @@ h2{
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: #491000;
+  color: #DFD9AB;
 }
 
 .topnav a.active {
