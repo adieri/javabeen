@@ -91,7 +91,7 @@ h2{
 
 @media (min-width: 768px) {
 body {
-    background-color:#DFD9AB
+    background-color:#DFD9AB;
     font-size:50px
     }
 }
@@ -99,7 +99,7 @@ body {
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
 body {
-    background-color:#883E24
+    background-color:#883E24;
     font-size:17px
     }
 }
@@ -107,7 +107,7 @@ body {
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 body { 
-    background-color:#7E0000
+    background-color:#7E0000;
     font-size:18px
     }
 }
@@ -115,7 +115,7 @@ body {
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
 body {
-    background-color:#491000
+    background-color:#491000;
     font-size:19px
     }
 }
