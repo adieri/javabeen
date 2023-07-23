@@ -3,6 +3,7 @@ body{
     font-size: 14px;
     color:#191312;
     background: url(https://github.com/adieri/javabeen/blob/bd5bd0fa981f80a29f22a03ee787d8970a8a16c8/images/coffeeBg.jpg);
+    opacity: 0.5;
 }
 
 
