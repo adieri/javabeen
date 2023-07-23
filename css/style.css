@@ -87,18 +87,18 @@ h2{
 // X-Small devices (portrait phones, less than 576px)
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { .divBg {background-color:#883E24}
+@media (min-width: 576px) {background-color:#883E24}
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { .divBg {background-color:blue}
+@media (min-width: 768px) {background-color:blue}
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) { .divBg {background-color:green}
+@media (min-width: 992px)  {background-color:green}
 
 // X-Large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { .divBg {background-color:#orange}
+@media (min-width: 1200px) {background-color:#orange}
 
 // XX-Large devices (larger desktops, 1400px and up)
-@media (min-width: 1400px) { .divBg {background-color:#purple}
+@media (min-width: 1400px) {background-color:#purple}
                             
 
