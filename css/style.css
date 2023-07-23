@@ -83,3 +83,32 @@ h2{
   color: white;
 }
 
+
+/*smart phone portrait*/
+@media (min-width:320px) 
+{
+.divBg {background-color:#883E24}
+}
+
+    /*smart phone landscape*/
+@media (min-width:480px)
+{
+.divBg {background-color:#7E0000}
+}
+
+    /*tablet portrait*/
+@media (min-width:768px)
+{
+.divBg {background-color:#191312}
+}
+
+ /*tablet portrait*/
+@media (min-width:1024px)
+{
+.divBg {background-color:#491000}
+}
+ /*desktop*/
+@media (min-width:1200px)
+{
+.divBg {background-color:#491000}
+}
