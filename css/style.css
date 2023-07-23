@@ -92,7 +92,7 @@ h2{
 @media (min-width: 768px) {
 body {
     background-color:#DFD9AB;
-    font-size:50px;
+    font-size:16px;
     }
 }
 
@@ -100,7 +100,7 @@ body {
 @media (min-width: 992px) { 
 body {
     background-color:#883E24;
-    font-size:17px;
+    font-size:24px;
     }
 }
 
@@ -108,7 +108,7 @@ body {
 @media (min-width: 1200px) {
 body { 
     background-color:#7E0000;
-    font-size:18px;
+    font-size:30px;
     }
 }
 
@@ -116,7 +116,7 @@ body {
 @media (min-width: 1400px) {
 body {
     background-color:#491000;
-    font-size:19px;
+    font-size:36px;
     }
 }
                             
