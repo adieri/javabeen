@@ -28,5 +28,16 @@
     <input type="submit" name="mySub" value="Enter">
     <input type="reset" name="MyRest" value="clear">
     </form>
+
+function validateForm() {
+  let x = document.forms["myForm"]["fname"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+        
     </body>
+
+    
 </html>
