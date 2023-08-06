@@ -6,7 +6,7 @@
 
 <script>
 function validateForm() {
-  let x = document.forms["myForm"]["fname"]["email"].value;
+  let x = document.forms["myForm"]["fname"]["email"]["comment"].value;
   if (x == "") {
     alert("Must be filled out");
     return false;
@@ -33,6 +33,7 @@ function validateForm() {
 <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
   Name: <input type="text" name="fname">
   E-mail: <input type="email" name="email">
+  Comment: <input type="text" name="comment">
   <input type="submit" value="Submit">
 </form>
         
