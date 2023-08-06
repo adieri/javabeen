@@ -6,9 +6,9 @@
 
 <script>
 function validateForm() {
-  let x = document.forms["myForm"]["fname"].value;
+  let x = document.forms["myForm"]["fname"]["email"].value;
   if (x == "") {
-    alert("Name must be filled out");
+    alert("Must be filled out");
     return false;
   }
 }
@@ -30,13 +30,11 @@ function validateForm() {
             </div>
 
 
-<h2>Enter your name</h2>
-
 <form name="myForm" action="/formprocess.html" onsubmit="return validateForm()" method="post">
   Name: <input type="text" name="fname">
+  E-mail: <input type="email" name="email">
   <input type="submit" value="Submit">
 </form>
-        
         
     </body>
 
