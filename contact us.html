@@ -3,6 +3,17 @@
     <head>
         <title>Javabeen: Atmosphere.Company.Coffee</title>
         <link rel="stylesheet" href="css/style.css">
+
+<script>
+function validateForm() {
+  let x = document.forms["myForm"]["fname"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+</script>
+        
     </head>
     <body>
 <div class="topnav">
@@ -17,18 +28,15 @@
                 </div>
 
             </div>
-    <form name="myForm" action="formprocess.html" onsubmit="return
-        validateForm()" method="post">
-    <input type="text" name="myText" value="Name"><br>
-    <input type="text" name="myText" value="Email"><br>
-    <input type="text" name="myText" value="Phone Number"><br>
-    <textarea name="myTa" rows="15" cols="100">
-    Comments:
+
+
+<h2>Enter your name</h2>
+
+<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+  Name: <input type="text" name="fname">
+  <input type="submit" value="Submit">
+</form>
         
-    </textarea>
-    <input type="submit" name="mySub" value="Enter">
-    <input type="reset" name="MyRest" value="clear">
-    </form>
         
     </body>
 
