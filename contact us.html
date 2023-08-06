@@ -14,10 +14,6 @@ function validate_form() {
         { validity = false; alert('Name field is empty!'); }
   if (!check_email(document.form.EMAIL.value))
         { validity = false; alert('Email address is invalid!'); }
-  if (!check_url(document.form.URL.value))
-        { validity = false; alert('URL field is invalid!'); }
-  if (!check_empty(document.form.DESCRIPTION.value))
-        { validity = false; alert('Description field is empty!'); }
   if (validity)
         alert ("Needed entries have been verified. "
                 + "Your form is now being passed to your browser's "
@@ -37,15 +33,6 @@ function check_email(address) {
   return true;
 }
 
-function check_url(address) {
-  if ((address == "")
-
-    || (address.indexOf ('http://') == -1)
-    || (address.indexOf ('.') == -1))
-      return false;
-  return true;
-}
-// -->
 </script>
         
     </head>
@@ -72,8 +59,6 @@ function check_url(address) {
  enctype="text/plain" onSubmit="return validate_form()">
 Name:<br><input type="text" size=50 name="NAME"><br>
 Email:<br><input type="text" size=50 name="EMAIL"><br>
-URL:<br><input type="text" size=50 name="URL"><br>
-Description:<br><TEXTAREA NAME="DESCRIPTION" ROWS=8 COLS=50 wrap=virtual></TEXTAREA><br>
 <input type="submit" name="submit" value="Submit"> <input type="reset" value="Reset"></form>
 
 
