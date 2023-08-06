@@ -6,9 +6,11 @@
 
 <script>
 function validateForm() {
-  let x = document.forms["myForm"]["fname"]["email"]["comment"].value;
+  let x = document.forms["myForm"]["fname"].value;
   if (x == "") 
       let x = document.forms["myForm"]["email"].value;
+  if (x == "") 
+        let x = document.forms["myForm"]["comment"].value;
   if (x == "") 
   
   
