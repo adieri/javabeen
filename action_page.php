@@ -3,7 +3,7 @@
 <body>
   
   Hi <?php echo htmlspecialchars($_POST['fname']); ?>.
-We will be contacting you at <?php echo (int)$_POST['email']; ?> very soon.
+We will be contacting you very soon.
 
   </body>
 </html>
