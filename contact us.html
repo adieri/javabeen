@@ -3,8 +3,20 @@
     <head>
         <title>Javabeen: Contact Us</title>
         <link rel="stylesheet" href="css/style.css">
+
+<script>
+function validateForm() {
+  let x = document.forms["myForm"]["fname"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+</script>
+        
     </head>
 
+    
     
     <body>
 <div class="topnav">
