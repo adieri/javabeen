@@ -5,13 +5,14 @@
         <link rel="stylesheet" href="css/style.css">
 
 <script>
-function validateForm() {
-  let x = document.forms["myForm"]["fname"].value;
-  if (x == "") {
-    alert("Name must be filled out");
-    return false;
-  }
-}
+function validate_form() {
+  validity = true; // assume valid
+  if (!check_empty(document.form.NAME.value))
+        { validity = false; alert('Name field is empty!'); }
+  if (!check_email(document.form.EMAIL.value))
+        { validity = false; alert('Email address is invalid!'); }
+  if (!check_url(document.form.URL.value))
+
 </script>
         
     </head>
@@ -34,13 +35,15 @@ function validateForm() {
 
         
 
-<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
-  <p>Name: <input type="text" name="fname"></p>
-    <p>Email: <input type="email" name="email"></p>
-    
-  <input type="submit" value="Submit">
-</form>
-        
+<form name="form" method="post" action="YOUR EMAIL ADDRESS ?SUBJECT=YOUR SUBJECT"
+ enctype="text/plain" onSubmit="return validate_form()">
+Name:<br><input type="text" size=50 name="NAME"><br>
+Email:<br><input type="text" size=50 name="EMAIL"><br>
+URL:<br><input type="text" size=50 name="URL"><br>
+Description:<br><TEXTAREA NAME="DESCRIPTION" ROWS=8 COLS=50 wrap=virtual></TEXTAREA><br>
+<input type="submit" name="submit" value="Submit"> <input type="reset" value="Reset"></form>
+
+
     </body>
 
     
