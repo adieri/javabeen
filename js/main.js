@@ -31,8 +31,6 @@ function GEEKFORGEEKS(){
 		document.forms.RegForm.Telephone.value;
 	var what =
 		document.forms.RegForm.Subject.value;
-	var password =
-		document.forms.RegForm.Password.value;
 	var address =
 		document.forms.RegForm.Address.value;
 	//Javascript reGex for Email Validation.
