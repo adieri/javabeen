@@ -7,7 +7,13 @@
 <script>
 function validateForm() {
   let x = document.forms["myForm"]["fname"]["email"]["comment"].value;
-  if (x == "") {
+  if (x == "") 
+      let x = document.forms["myForm"]["email"].value;
+  if (x == "") 
+  
+  
+  
+  {
     alert("Must be filled out");
     return false;
   }
