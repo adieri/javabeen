@@ -4,7 +4,10 @@
         <title>Javabeen: Contact Us</title>
         <link rel="stylesheet" href="css/style.css">
 
-<script>
+<script language="JavaScript">
+<!-- Hide from old browsers
+
+
 function validate_form() {
   validity = true; // assume valid
   if (!check_empty(document.form.NAME.value))
@@ -12,7 +15,37 @@ function validate_form() {
   if (!check_email(document.form.EMAIL.value))
         { validity = false; alert('Email address is invalid!'); }
   if (!check_url(document.form.URL.value))
+        { validity = false; alert('URL field is invalid!'); }
+  if (!check_empty(document.form.DESCRIPTION.value))
+        { validity = false; alert('Description field is empty!'); }
+  if (validity)
+        alert ("Needed entries have been verified. "
+                + "Your form is now being passed to your browser's "
+                + "Mail Delivery Sub-System.");
+  return validity;
+}
 
+function check_empty(text) {
+  return (text.length > 0); // returns false if empty
+}
+
+function check_email(address) {
+  if ((address == "")
+    || (address.indexOf ('@') == -1)
+    || (address.indexOf ('.') == -1))
+      return false;
+  return true;
+}
+
+function check_url(address) {
+  if ((address == "")
+
+    || (address.indexOf ('http://') == -1)
+    || (address.indexOf ('.') == -1))
+      return false;
+  return true;
+}
+// -->
 </script>
         
     </head>
