@@ -1,3 +1,6 @@
+/*ESTO ERA DEL SLIDESHOW...MAYBE LO PUEDAS BORRAR LUEGO
+
+
 $(document).ready(function(){
     $('.next').on('click', function(){
         var currentImg = $('.active');
@@ -20,7 +23,7 @@ $(document).ready(function(){
     });
 });
 
-
+*/
 
 function validateForm() {
   let x = document.forms["myForm"]["fname"].value;
