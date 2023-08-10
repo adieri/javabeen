@@ -8,9 +8,8 @@
         
         <link rel="stylesheet" href="css/style.css">
 
-<!-- borrar despues de test <script language="JavaScript"> <--
+<!-- borrar despues de test <script language="JavaScript"> -->
     
-<!-- Hide from old browsers -->
     
 
 <script src="js/main.js"></script> 
@@ -69,14 +68,22 @@ function check_email(address) {
 
             </div>
 
+        <!-- TEST -->
 
+        <form name="form" method="post" action="/formprocess.html"
+ enctype="text/plain" onSubmit="return validate_form()">
+Name:<br><input type="text" size=50 name="NAME"><br>
+Email:<br><input type="text" size=50 name="EMAIL"><br>
+<input type="submit" name="submit" value="Submit"> <input type="reset" value="Reset">
         
-
+<!-- Going to test another version IF IT WORKS DELETE THIS ONE 
+        
 <form name="form" method="post" action="mailto:ire-ida@hotmail.com"
  enctype="text/plain" onSubmit="return validate_form()">
 Name:<br><input type="text" size=50 name="NAME"><br>
 Email:<br><input type="text" size=50 name="EMAIL"><br>
 <input type="submit" name="submit" value="Submit"> <input type="reset" value="Reset"></form>
+        -->
 
 <style>
     body {
