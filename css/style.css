@@ -81,16 +81,12 @@ h2{
 }
 
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #DFD9AB;
   color: white;
 }
 
 .topnav .icon {
   display: none;
-}
-
-.active {
-  background-color: tomato;
 }
 
 /*phones, 768px and up) */
