@@ -92,6 +92,10 @@ h2{
   display: none;
 }
 
+.responsive {
+    width: 100%;
+    height:auto;
+
 /* media queries viejos BORRA ESTOS SI FUNCIONA EL NUEVO!!!!!
 
 @media (min-width: 768px) {
