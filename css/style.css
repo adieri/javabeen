@@ -89,12 +89,9 @@ h2{
   display: none;
 }
 
-.class {
+.active {
   background-color: tomato;
-  color: white;
-  border: 2px solid black;
-  margin: 20px;
-  padding: 20px;
+}
 
 /*phones, 768px and up) */
 
