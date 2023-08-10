@@ -85,7 +85,9 @@ h2{
   color: white;
 }
 
-
+.topnav .icon {
+  display: none;
+}
 
 
 
