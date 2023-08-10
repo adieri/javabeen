@@ -14,10 +14,6 @@ h2{
     text-align: center;
 }
 
-container {
-
-}
-
 /*navigation bar*/
 
 .topnav {
@@ -55,6 +51,8 @@ container {
     width: 100%;
     height:auto; 
 }
+
+
 
 /* media queries viejos BORRA ESTOS SI FUNCIONA EL NUEVO!!!!!
 
