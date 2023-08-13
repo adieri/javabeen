@@ -73,7 +73,8 @@ h2{
   outline: 0;
   border: 1px solid #000000;
   cursor: pointer;
-  position: relative;
+  position:fixed;
+  text-align: center;
   background-color: #491000(0, 0, 0, 0);
   user-select: none;
   -webkit-user-select: none;
