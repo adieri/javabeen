@@ -1,4 +1,3 @@
-/* recuerda borrar el html si no funciona */
 
 body,html {
     font-family: 'Bitter', sans-serif;
@@ -64,41 +63,9 @@ h2{
     margin-top: 15px;    
 }
 
-.background-image {
-    width: auto;
-    height: auto;
-}
-
-/* media queries viejos BORRA ESTOS SI FUNCIONA EL NUEVO!!!!!
-
-@media (min-width: 768px) {
-body {
-    font-size:16px;
-    }
-}
 
 
-@media (min-width: 992px) { 
-body {
-    font-size:24px;
-    }
-}
 
-@media (min-width: 1200px) {
-body { 
-    font-size:30px;
-    }
-}
-
-
-@media (min-width: 1400px) {
-body {
-    font-size:36px;
-    }
-}
-*/ 
-
-/*Nuevos media queries SI FUNCIONA BORRA LOS DE ARRIBA*/
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
