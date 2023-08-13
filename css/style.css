@@ -2,7 +2,7 @@
 body,html {
     font-family: 'Bitter', sans-serif;
     font-size: 14px;
-    background-image: url(./images/shopBG.jpg);
+    background-image: url("./images/shopBG.jpg");
     background-size: 100% auto;
 }  
 
