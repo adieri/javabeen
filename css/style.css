@@ -18,7 +18,17 @@ h2{
 }
 
 .images {
-  object-fit: fill;
+  display: block;
+}
+
+.photo {
+  max-width: fit-content;
+  height: fit-content;
+}
+
+.photo img {
+  width: 100%;
+  height: 100%;
 }
 
 
