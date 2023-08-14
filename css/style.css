@@ -45,6 +45,8 @@ transform: translate (-50%, -50%);
   transform: translate(-50%, -50%);
   color:#DFD9AB;
   background-color: #491000;
+  font-size: 30px;
+  font-weight: bolder;
 }
 
 /*navigation bar*/
