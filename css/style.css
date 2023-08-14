@@ -165,10 +165,10 @@ transform: translate (-50%, -50%);
 }
   
 
-@media (min-width: 768px) {
+@media (min-width: 601px) {
   .menubtn {
     padding: 13px 50px 13px;
-    font-size: large;
+    font-size: 80px;
   }
 }
 
@@ -179,7 +179,7 @@ transform: translate (-50%, -50%);
   .topnav a.icon {
     float: right;
     display: block;
-    font-size: medium;
+    font-size: 30px;
   }
 }
 
@@ -190,7 +190,7 @@ transform: translate (-50%, -50%);
     position: absolute;
     right: 0;
     top: 0;
-    font-size: medium;
+    font-size: 30px;
   }
   .topnav.responsive a {
     float: none;
