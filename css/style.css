@@ -43,7 +43,8 @@ transform: translate (-50%, -50%);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color:#DFD9AB
+  color:#DFD9AB;
+  background-color: #491000;
 }
 
 /*navigation bar*/
